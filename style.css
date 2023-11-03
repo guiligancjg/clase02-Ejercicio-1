@@ -7,8 +7,9 @@ html {
 }
 body {
     font-family: var(--fuenteParrafos);
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     line-height: 2;
+    background-color: #dceafc;
 }
 
 /** Globales **/
