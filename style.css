@@ -30,7 +30,7 @@ body {
 
 input {
     margin: 1rem;
-    width: 20rem;
+    width: 34rem;
     padding: 1rem;
     font-size: 1.5rem;
     border: 0.2rem solid #333;
@@ -38,9 +38,9 @@ input {
 
 button {
     margin: 1rem;
-    padding: 10px 20px; /* Relleno personalizado (vertical horizontal) */
-    font-size: 18px; /* Tamaño de fuente personalizado */
-    background-color: #007bff; /* Color de fondo personalizado */
-    color: #fff; /* Color del texto personalizado */
-    border: none; /* Sin borde */
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
 }
