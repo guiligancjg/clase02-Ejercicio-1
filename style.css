@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    
+}
+
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    gap: 3;
+}
+
+input {
+    margin: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid #333;
+}
+
+button {
+    margin: 1rem;
+    padding: 10px 20px; /* Relleno personalizado (vertical horizontal) */
+    font-size: 18px; /* Tamaño de fuente personalizado */
+    background-color: #007bff; /* Color de fondo personalizado */
+    color: #fff; /* Color del texto personalizado */
+    border: none; /* Sin borde */
+}
